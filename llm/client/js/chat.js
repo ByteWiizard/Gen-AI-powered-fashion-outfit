@@ -34,21 +34,7 @@ function scrollToBottom() {
 }
 
 
-const predefinedQuestions = [
-	"Hello! Welcome to the Fashion Outfit Generator. To start, are you looking for male clothing or female clothing? Could you also specify your age, please?",
-	"Great! What type of clothing are you interested in? For instance, casuals, formals, party wear, or something else?",
-	"Thanks! Now, could you let me know your preferred color?",
-	"Got it! How about we go with red? Does that work for you?",
-	"Excellent! What's the occasion you're buying the clothing for?",
-	"Thanks for sharing. If applicable, could you tell me which festival or event you're preparing for?",
-	"Understood. What's your preferred style? Feel free to mention Western, Indie, Desi, Aesthetic, or any other style you have in mind.",
-	"Thank you for providing these details. Based on your preferences, I can offer two options. Would you like to see outfit images inspired by current Pinterest trends? Or would you prefer me to generate a fresh outfit for you using advanced GenAI techniques?"
-];
 
-
-const queries = [
-	"No worries! Let's work together to refine the outfit. Would you like to adjust specific elements, or would you prefer to explore the alternative option?"
-]
 
 const userAnswers = new Map(); // Map to store user answers
 
@@ -134,6 +120,23 @@ function getUniqueWordsAsString(inputString) {
 	return uniqueWordsString;
 }
 
+
+
+const predefinedQuestions = [
+	"Hello! Welcome to the Fashion Outfit Generator. To start, are you looking for male clothing or female clothing? Could you also specify your age, please?",
+	"Great! What type of clothing are you interested in? For instance, casuals, formals, party wear, or something else?",
+	"Thanks! Now, could you let me know your preferred color?",
+	"Got it! How about we go with red? Does that work for you?",
+	"Excellent! What's the occasion you're buying the clothing for?",
+	"Thanks for sharing. If applicable, could you tell me which festival or event you're preparing for?",
+	"Understood. What's your preferred style? Feel free to mention Western, Indie, Desi, Aesthetic, or any other style you have in mind.",
+	"Thank you for providing these details. Based on your preferences, I can offer two options. Would you like to see outfit images inspired by current Pinterest trends? Or would you prefer me to generate a fresh outfit for you using advanced GenAI techniques?"
+];
+
+
+const queries = [
+	"No worries! Let's work together to refine the outfit. Would you like to adjust specific elements, or would you prefer to explore the alternative option?"
+]
 const handle_ask = async () => {
 	// Iterate over predefined questions
 	for (const question of predefinedQuestions) {
