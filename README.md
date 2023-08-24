@@ -1,5 +1,5 @@
 # Gen-AI-powered-fashion-outfit-generator
-[demo video]([url](https://drive.google.com/file/d/1OdoXteyUaq2b9STpyOiy-8EmbESEFypD/view?usp=drive_link)), [google drive for screenshots]([url](https://drive.google.com/drive/folders/1h_zowZTmZm-yi5mdbXCe-eFThgft6dJ3?usp=sharing))
+demo video - https://drive.google.com/file/d/1OdoXteyUaq2b9STpyOiy-8EmbESEFypD/view?usp=drive_link
 ## Description
 This project's mission is to enhance the user's shopping experience by offering personalized, trendy, and cohesive outfit ideas. The Fashion Outfit Generator integrates multiple components to cater to user preferences, historical data, and the latest fashion trends.
 ## Components
