@@ -61,7 +61,7 @@ This project's mission is to enhance the user's shopping experience by offering 
 - Incorporate semantic understanding for nuanced prompt generation.
 - Integrate augmented reality try-on for an immersive experience.
 
-Acknowledgments
+Acknowledgments - 
 This project was inspired by the Flipkart GRID 5.0 and is built upon the advancements in Generative AI technology.
 
 Authors - Dhruv Mishra, Yaman Goyal, Amit Kumar
